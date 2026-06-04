@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="547fs"></ZoomStartTime>
+      <ZoomEndTime time="559fs"></ZoomEndTime>
+      <Cursor1Time time="515fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="RiscV_BD_i/reset_0_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/reset_0_1</obj_property>
+      <obj_property name="ObjectShortName">reset_0_1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/pc_0_pc_f" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/pc_0_pc_f[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_0_pc_f[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/instr_mem_0_instr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/instr_mem_0_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_mem_0_instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/IF_ID_PR_0_opcode" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/IF_ID_PR_0_opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PR_0_opcode[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/IF_ID_PR_0_Rs1_D" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/IF_ID_PR_0_Rs1_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PR_0_Rs1_D[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/register_file_0_rd_data1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/register_file_0_rd_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_file_0_rd_data1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/IF_ID_PR_0_Rs2_D" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/IF_ID_PR_0_Rs2_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PR_0_Rs2_D[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/register_file_0_rd_data2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/register_file_0_rd_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_file_0_rd_data2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/MA_WB_PR_0_RD_W" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/MA_WB_PR_0_RD_W[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MA_WB_PR_0_RD_W[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/Write_back_Mux_0_W_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/Write_back_Mux_0_W_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_back_Mux_0_W_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/imm_extend_0_imm_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/imm_extend_0_imm_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_extend_0_imm_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/IF_ID_PR_0_csr_add_D" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/IF_ID_PR_0_csr_add_D[11:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PR_0_csr_add_D[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/controller_0_Jump" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/controller_0_Jump</obj_property>
+      <obj_property name="ObjectShortName">controller_0_Jump</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/controller_0_Branch" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/controller_0_Branch</obj_property>
+      <obj_property name="ObjectShortName">controller_0_Branch</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/controller_0_csr_op" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/controller_0_csr_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">controller_0_csr_op[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/controller_0_excep" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/controller_0_excep</obj_property>
+      <obj_property name="ObjectShortName">controller_0_excep</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/csr_0_csr_rdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/csr_0_csr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_0_csr_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/csr_0_mepc_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/csr_0_mepc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_0_mepc_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/csr_0_mtvec_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/csr_0_mtvec_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_0_mtvec_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/alu_muxes_0_alu_input_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/alu_muxes_0_alu_input_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_muxes_0_alu_input_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/alu_muxes_0_alu_input_2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/alu_muxes_0_alu_input_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_muxes_0_alu_input_2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/two_in32bitmix_0_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/two_in32bitmix_0_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">two_in32bitmix_0_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/forwarding_mux_0_rs1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/forwarding_mux_0_rs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">forwarding_mux_0_rs1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/forwarding_mux_0_rs2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/forwarding_mux_0_rs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">forwarding_mux_0_rs2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/Q16_16_Mult_0_result" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/Q16_16_Mult_0_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q16_16_Mult_0_result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/EX_MA_PR_0_write_data_M" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/EX_MA_PR_0_write_data_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MA_PR_0_write_data_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/data_mem_0_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/data_mem_0_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_0_data_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/EX_MA_PR_0_ALU_result_M" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/EX_MA_PR_0_ALU_result_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MA_PR_0_ALU_result_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/EX_MA_PR_0_Ex_Imm_M" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/EX_MA_PR_0_Ex_Imm_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MA_PR_0_Ex_Imm_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/EX_MA_PR_0_peripheral_wen_M" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/EX_MA_PR_0_peripheral_wen_M</obj_property>
+      <obj_property name="ObjectShortName">EX_MA_PR_0_peripheral_wen_M</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/EX_MA_PR_0_proces_req_M" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/EX_MA_PR_0_proces_req_M</obj_property>
+      <obj_property name="ObjectShortName">EX_MA_PR_0_proces_req_M</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/apb_soc_top_0_proc_rdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/apb_soc_top_0_proc_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_soc_top_0_proc_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/apb_soc_top_0_proc_ack" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/apb_soc_top_0_proc_ack</obj_property>
+      <obj_property name="ObjectShortName">apb_soc_top_0_proc_ack</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/apb_soc_top_0_gpio_interrupt" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/apb_soc_top_0_gpio_interrupt</obj_property>
+      <obj_property name="ObjectShortName">apb_soc_top_0_gpio_interrupt</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/hazard_unit_0_stall_pc" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/hazard_unit_0_stall_pc</obj_property>
+      <obj_property name="ObjectShortName">hazard_unit_0_stall_pc</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/hazard_unit_0_stall_ifid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/hazard_unit_0_stall_ifid</obj_property>
+      <obj_property name="ObjectShortName">hazard_unit_0_stall_ifid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/hazard_unit_0_stall_idex" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/hazard_unit_0_stall_idex</obj_property>
+      <obj_property name="ObjectShortName">hazard_unit_0_stall_idex</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/hazard_unit_0_stall_exmem" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/hazard_unit_0_stall_exmem</obj_property>
+      <obj_property name="ObjectShortName">hazard_unit_0_stall_exmem</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/hazard_unit_0_stall_memwb" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/hazard_unit_0_stall_memwb</obj_property>
+      <obj_property name="ObjectShortName">hazard_unit_0_stall_memwb</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/hazard_unit_0_flushe" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/hazard_unit_0_flushe</obj_property>
+      <obj_property name="ObjectShortName">hazard_unit_0_flushe</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="RiscV_BD_i/hazard_unit_0_flushd" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">RiscV_BD_i/hazard_unit_0_flushd</obj_property>
+      <obj_property name="ObjectShortName">hazard_unit_0_flushd</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

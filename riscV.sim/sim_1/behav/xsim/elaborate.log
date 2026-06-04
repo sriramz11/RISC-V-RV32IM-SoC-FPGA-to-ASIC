@@ -1,0 +1,102 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 825d914d5bae4902b22375897d789401 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot RiscV_BD_wrapper_tb_behav xil_defaultlib.RiscV_BD_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'clk' is not connected on this instance [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:93]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_fixed_point_mux.v" Line 1. Module alu_fixed_point_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/min_csr.v" Line 2. Module csr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/csr_mux.v" Line 1. Module csr_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/forwarding_mux.v" Line 1. Module forwarding_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/load_extend.v" Line 1. Module load_extend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/reg_file.v" Line 1. Module register_file doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_fixed_point_mux.v" Line 1. Module alu_fixed_point_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/min_csr.v" Line 2. Module csr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/csr_mux.v" Line 1. Module csr_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/forwarding_mux.v" Line 1. Module forwarding_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/load_extend.v" Line 1. Module load_extend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/reg_file.v" Line 1. Module register_file doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling module xil_defaultlib.Booth_PP
+Compiling module xil_defaultlib.Dadda_stage1
+Compiling module xil_defaultlib.Dadda_stage2
+Compiling module xil_defaultlib.mul_top
+Compiling module xil_defaultlib.ALU_OPER
+Compiling module xil_defaultlib.RiscV_BD_ALU_OPER_0_0
+Compiling module xil_defaultlib.EX_MA_PR
+Compiling module xil_defaultlib.RiscV_BD_EX_MA_PR_0_0
+Compiling module xil_defaultlib.ID_EX_PR
+Compiling module xil_defaultlib.RiscV_BD_ID_EX_PR_0_0
+Compiling module xil_defaultlib.IF_ID_PR
+Compiling module xil_defaultlib.RiscV_BD_IF_ID_PR_0_0
+Compiling module xil_defaultlib.MA_WB_PR
+Compiling module xil_defaultlib.RiscV_BD_MA_WB_PR_0_0
+Compiling module xil_defaultlib.Booth_PP_FM
+Compiling module xil_defaultlib.Dadda_tree
+Compiling module xil_defaultlib.Q16_16_Mult
+Compiling module xil_defaultlib.RiscV_BD_Q16_16_Mult_0_0
+Compiling module xil_defaultlib.Write_back_Mux
+Compiling module xil_defaultlib.RiscV_BD_Write_back_Mux_0_0
+Compiling module xil_defaultlib.alu_fixed_point_mux
+Compiling module xil_defaultlib.RiscV_BD_alu_fixed_point_mux_0_0
+Compiling module xil_defaultlib.alu_muxes
+Compiling module xil_defaultlib.RiscV_BD_alu_muxes_0_2
+Compiling module xil_defaultlib.apb_master
+Compiling module xil_defaultlib.apb_slave_decoder
+Compiling module xil_defaultlib.gpio_updated
+Compiling module xil_defaultlib.spi_apb_master_tx
+Compiling module xil_defaultlib.apb_soc_top
+Compiling module xil_defaultlib.RiscV_BD_apb_soc_top_0_0
+Compiling module xil_defaultlib.branch_fsm
+Compiling module xil_defaultlib.RiscV_BD_branch_fsm_0_0
+Compiling module xil_defaultlib.combinational
+Compiling module xil_defaultlib.RiscV_BD_combinational_0_0
+Compiling module xil_defaultlib.concat_2to1
+Compiling module xil_defaultlib.RiscV_BD_concat_2to1_0_0
+Compiling module xil_defaultlib.RiscV_BD_concat_2to1_1_0
+Compiling module xil_defaultlib.RiscV_BD_concat_2to1_2_0
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.RiscV_BD_controller_0_0
+Compiling module xil_defaultlib.csr
+Compiling module xil_defaultlib.RiscV_BD_csr_0_0
+Compiling module xil_defaultlib.csr_mux
+Compiling module xil_defaultlib.RiscV_BD_csr_mux_0_0
+Compiling architecture dmem_arch of entity xil_defaultlib.data_mem [data_mem_default]
+Compiling module xil_defaultlib.RiscV_BD_data_mem_0_0
+Compiling module xil_defaultlib.forwarding_mux
+Compiling module xil_defaultlib.RiscV_BD_forwarding_mux_0_0
+Compiling module xil_defaultlib.hazard_unit
+Compiling module xil_defaultlib.RiscV_BD_hazard_unit_0_0
+Compiling module xil_defaultlib.RiscV_BD_ila_0_0
+Compiling module xil_defaultlib.imm_extend
+Compiling module xil_defaultlib.RiscV_BD_imm_extend_0_0
+Compiling architecture mem_arch of entity xil_defaultlib.instr_mem [instr_mem_default]
+Compiling module xil_defaultlib.RiscV_BD_instr_mem_0_0
+Compiling module xil_defaultlib.instr_retire_mux
+Compiling module xil_defaultlib.RiscV_BD_instr_retire_mux_0_0
+Compiling module xil_defaultlib.load_extend
+Compiling module xil_defaultlib.RiscV_BD_load_extend_0_0
+Compiling module xil_defaultlib.mul_fsm
+Compiling module xil_defaultlib.RiscV_BD_mul_fsm_0_0
+Compiling module xil_defaultlib.or_gate
+Compiling module xil_defaultlib.RiscV_BD_or_gate_1_0
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.RiscV_BD_pc_0_0
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.RiscV_BD_register_file_0_0
+Compiling module xil_defaultlib.two_in32bitmix
+Compiling module xil_defaultlib.RiscV_BD_two_in32bitmix_0_0
+Compiling module xil_defaultlib.RiscV_BD_two_in32bitmix_1_0
+Compiling module xil_defaultlib.RiscV_BD
+Compiling module xil_defaultlib.RiscV_BD_wrapper
+Compiling module xil_defaultlib.RiscV_BD_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RiscV_BD_wrapper_tb_behav

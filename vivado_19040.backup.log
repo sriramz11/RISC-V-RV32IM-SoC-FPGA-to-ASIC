@@ -1,0 +1,587 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 17 05:26:02 2026
+# Process ID: 19040
+# Current directory: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17720 D:\IIT BOMBAY\SEM 2\DESIGN LAB\COURSE PRPJECT\FINAL_TEST2\syn_ready_with_ila\FINAL_TEST2\FINAL_TEST2.xpr
+# Log file: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/vivado.log
+# Journal file: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2'
+INFO: [Project 1-313] Project file moved from 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1110.324 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}
+Reading block design file <D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd>...
+Adding component instance block -- xilinx.com:module_ref:Q16_16_Mult:1.0 - Q16_16_Mult_0
+Adding component instance block -- xilinx.com:module_ref:register_file:1.0 - register_file_0
+Adding component instance block -- xilinx.com:module_ref:csr:1.0 - csr_0
+Adding component instance block -- xilinx.com:module_ref:alu_fixed_point_mux:1.0 - alu_fixed_point_mux_0
+Adding component instance block -- xilinx.com:module_ref:csr_mux:1.0 - csr_mux_0
+Adding component instance block -- xilinx.com:module_ref:forwarding_mux:1.0 - forwarding_mux_0
+Adding component instance block -- xilinx.com:module_ref:load_extend:1.0 - load_extend_0
+Adding component instance block -- xilinx.com:module_ref:Write_back_Mux:1.0 - Write_back_Mux_0
+Adding component instance block -- xilinx.com:module_ref:combinational:1.0 - combinational_0
+Adding component instance block -- xilinx.com:module_ref:instr_retire_mux:1.0 - instr_retire_mux_0
+Adding component instance block -- xilinx.com:module_ref:concat_2to1:1.0 - concat_2to1_0
+Adding component instance block -- xilinx.com:module_ref:concat_2to1:1.0 - concat_2to1_1
+Adding component instance block -- xilinx.com:module_ref:concat_2to1:1.0 - concat_2to1_2
+Adding component instance block -- xilinx.com:module_ref:or_gate:1.0 - or_gate_1
+Adding component instance block -- xilinx.com:module_ref:alu_muxes:1.0 - alu_muxes_0
+Adding component instance block -- xilinx.com:module_ref:pc:1.0 - pc_0
+Adding component instance block -- xilinx.com:module_ref:branch_fsm:1.0 - branch_fsm_0
+Adding component instance block -- xilinx.com:module_ref:mul_fsm:1.0 - mul_fsm_0
+Adding component instance block -- xilinx.com:module_ref:IF_ID_PR:1.0 - IF_ID_PR_0
+Adding component instance block -- xilinx.com:module_ref:MA_WB_PR:1.0 - MA_WB_PR_0
+Adding component instance block -- xilinx.com:module_ref:ALU_OPER:1.0 - ALU_OPER_0
+Adding component instance block -- xilinx.com:module_ref:controller:1.0 - controller_0
+Adding component instance block -- xilinx.com:module_ref:imm_extend:1.0 - imm_extend_0
+Adding component instance block -- xilinx.com:module_ref:data_mem:1.0 - data_mem_0
+Adding component instance block -- xilinx.com:module_ref:hazard_unit:1.0 - hazard_unit_0
+Adding component instance block -- xilinx.com:module_ref:two_in32bitmix:1.0 - two_in32bitmix_0
+Adding component instance block -- xilinx.com:module_ref:two_in32bitmix:1.0 - two_in32bitmix_1
+Adding component instance block -- xilinx.com:module_ref:ID_EX_PR:1.0 - ID_EX_PR_0
+Adding component instance block -- xilinx.com:module_ref:EX_MA_PR:1.0 - EX_MA_PR_0
+Adding component instance block -- xilinx.com:module_ref:instr_mem:1.0 - instr_mem_0
+Adding component instance block -- xilinx.com:module_ref:apb_soc_top:1.0 - apb_soc_top_0
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Successfully read diagram <RiscV_BD> from block design file <D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1172.398 ; gain = 62.074
+generate_target Simulation [get_files {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}]
+WARNING: [Vivado 12-818] No files matched 'D:/IIT'
+WARNING: [Vivado 12-818] No files matched 'BOMBAY/SEM'
+WARNING: [Vivado 12-818] No files matched '2/DESIGN'
+WARNING: [Vivado 12-818] No files matched 'LAB/COURSE'
+WARNING: [Vivado 12-818] No files matched 'PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd'
+export_ip_user_files -of_objects [get_files {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}] -no_script -sync -force -quiet
+WARNING: [Vivado 12-818] No files matched 'D:/IIT'
+WARNING: [Vivado 12-818] No files matched 'BOMBAY/SEM'
+WARNING: [Vivado 12-818] No files matched '2/DESIGN'
+WARNING: [Vivado 12-818] No files matched 'LAB/COURSE'
+WARNING: [Vivado 12-818] No files matched 'PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd'
+export_simulation -of_objects [get_files {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}}] -directory {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/sim_scripts} -ip_user_files_dir {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files} -ipstatic_source_dir {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/modelsim} {questa=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/questa} {riviera=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/riviera} {activehdl=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}]
+WARNING: [Vivado 12-818] No files matched 'D:/IIT'
+WARNING: [Vivado 12-818] No files matched 'BOMBAY/SEM'
+WARNING: [Vivado 12-818] No files matched '2/DESIGN'
+WARNING: [Vivado 12-818] No files matched 'LAB/COURSE'
+WARNING: [Vivado 12-818] No files matched 'PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd'
+export_ip_user_files -of_objects [get_files {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}] -no_script -sync -force -quiet
+WARNING: [Vivado 12-818] No files matched 'D:/IIT'
+WARNING: [Vivado 12-818] No files matched 'BOMBAY/SEM'
+WARNING: [Vivado 12-818] No files matched '2/DESIGN'
+WARNING: [Vivado 12-818] No files matched 'LAB/COURSE'
+WARNING: [Vivado 12-818] No files matched 'PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd'
+export_simulation -of_objects [get_files {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}}] -directory {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/sim_scripts} -ip_user_files_dir {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files} -ipstatic_source_dir {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/modelsim} {questa=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/questa} {riviera=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/riviera} {activehdl=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [BD 41-1662] The design 'RiscV_BD.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\IIT BOMBAY\SEM 2\DESIGN LAB\COURSE PRPJECT\FINAL_TEST2\syn_ready_with_ila\FINAL_TEST2\FINAL_TEST2.srcs\sources_1\bd\RiscV_BD\RiscV_BD.bd> 
+Wrote  : <D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/ui/bd_3ef32312.ui> 
+VHDL Output written to : d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v
+VHDL Output written to : d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/sim/RiscV_BD.v
+VHDL Output written to : d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+Exporting to file d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hw_handoff/RiscV_BD.hwh
+Generated Block Design Tcl file d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hw_handoff/RiscV_BD_bd.tcl
+Generated Hardware Definition File d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.hwdef
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'RiscV_BD_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RiscV_BD_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Booth_PP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Booth_PP_FM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Dadda_tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dadda_tree
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Q16_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Q16_16_Mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/min_csr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_fixed_point_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_fixed_point_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/csr_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/forwarding_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/load_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/Write_back_Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Write_back_Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/combinational.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combinational
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/inst_retire_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_retire_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/concat_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module concat_2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/OR_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_muxes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_muxes
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/DESIGN LAB/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/branch_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/mul_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/IF_ID_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/MA_WB_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MA_WB_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Booth_PP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Booth_PP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_Stage_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dadda_stage1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_stage_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dadda_stage2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/mul_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/new/ALU_OPER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_OPER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/imm_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/two_in32bitmix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_in32bitmix
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/ID_EX_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/EX_MA_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MA_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_slave_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_slave_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_updated
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/spi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_apb_master_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_Q16_16_Mult_0_0/sim/RiscV_BD_Q16_16_Mult_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_Q16_16_Mult_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_register_file_0_0/sim/RiscV_BD_register_file_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_register_file_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_csr_0_0/sim/RiscV_BD_csr_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_csr_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_alu_fixed_point_mux_0_0/sim/RiscV_BD_alu_fixed_point_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_alu_fixed_point_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_csr_mux_0_0/sim/RiscV_BD_csr_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_csr_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_forwarding_mux_0_0/sim/RiscV_BD_forwarding_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_forwarding_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_load_extend_0_0/sim/RiscV_BD_load_extend_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_load_extend_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_Write_back_Mux_0_0/sim/RiscV_BD_Write_back_Mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_Write_back_Mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_combinational_0_0/sim/RiscV_BD_combinational_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_combinational_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_instr_retire_mux_0_0/sim/RiscV_BD_instr_retire_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_instr_retire_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_0_0/sim/RiscV_BD_concat_2to1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_concat_2to1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_1_0/sim/RiscV_BD_concat_2to1_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_concat_2to1_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_2_0/sim/RiscV_BD_concat_2to1_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_concat_2to1_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_or_gate_1_0/sim/RiscV_BD_or_gate_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_or_gate_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_alu_muxes_0_2/sim/RiscV_BD_alu_muxes_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_alu_muxes_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_pc_0_0/sim/RiscV_BD_pc_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_pc_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_branch_fsm_0_0/sim/RiscV_BD_branch_fsm_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_branch_fsm_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_mul_fsm_0_0/sim/RiscV_BD_mul_fsm_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_mul_fsm_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_IF_ID_PR_0_0/sim/RiscV_BD_IF_ID_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_IF_ID_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_MA_WB_PR_0_0/sim/RiscV_BD_MA_WB_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_MA_WB_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ALU_OPER_0_0/sim/RiscV_BD_ALU_OPER_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_ALU_OPER_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_controller_0_0/sim/RiscV_BD_controller_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_controller_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_imm_extend_0_0/sim/RiscV_BD_imm_extend_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_imm_extend_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_data_mem_0_0/sim/RiscV_BD_data_mem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_data_mem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_hazard_unit_0_0/sim/RiscV_BD_hazard_unit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_hazard_unit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_0_0/sim/RiscV_BD_two_in32bitmix_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_two_in32bitmix_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_1_0/sim/RiscV_BD_two_in32bitmix_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_two_in32bitmix_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ID_EX_PR_0_0/sim/RiscV_BD_ID_EX_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_ID_EX_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_EX_MA_PR_0_0/sim/RiscV_BD_EX_MA_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_EX_MA_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_instr_mem_0_0/sim/RiscV_BD_instr_mem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_instr_mem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_apb_soc_top_0_0/sim/RiscV_BD_apb_soc_top_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_apb_soc_top_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/sim/RiscV_BD_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/sim/RiscV_BD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/new/RiscV_BD_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_wrapper_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj RiscV_BD_wrapper_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/data_mem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'data_mem'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/instr_mem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'instr_mem'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1359.211 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '11' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+"xelab -wto 825d914d5bae4902b22375897d789401 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot RiscV_BD_wrapper_tb_behav xil_defaultlib.RiscV_BD_wrapper_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 825d914d5bae4902b22375897d789401 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot RiscV_BD_wrapper_tb_behav xil_defaultlib.RiscV_BD_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'spi_ss_n_0' on this module [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v:39]
+ERROR: [VRFC 10-3180] cannot find port 'spi_sclk_0' on this module [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v:38]
+ERROR: [VRFC 10-3180] cannot find port 'spi_mosi_0' on this module [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v:37]
+ERROR: [VRFC 10-3180] cannot find port 'gpio_pins_0' on this module [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v:35]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:54 . Memory (MB): peak = 1359.211 ; gain = 163.176
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+generate_target all [get_files  {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}}]
+INFO: [BD 41-1029] Generation completed for the IP Integrator block branch_fsm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mul_fsm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block IF_ID_PR_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MA_WB_PR_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ALU_OPER_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block controller_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block imm_extend_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block data_mem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hazard_unit_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block two_in32bitmix_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block two_in32bitmix_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ID_EX_PR_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block EX_MA_PR_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block instr_mem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block apb_soc_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+export_ip_user_files -of_objects [get_files {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}}] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}}] -directory {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/sim_scripts} -ip_user_files_dir {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files} -ipstatic_source_dir {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/modelsim} {questa=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/questa} {riviera=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/riviera} {activehdl=D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'RiscV_BD_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RiscV_BD_wrapper_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Booth_PP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Booth_PP_FM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Dadda_tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dadda_tree
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Q16_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Q16_16_Mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/min_csr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_fixed_point_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_fixed_point_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/csr_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/forwarding_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/load_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/Write_back_Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Write_back_Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/combinational.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combinational
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/inst_retire_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_retire_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/concat_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module concat_2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/OR_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_muxes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_muxes
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/DESIGN LAB/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/branch_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/mul_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/IF_ID_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/MA_WB_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MA_WB_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Booth_PP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Booth_PP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_Stage_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dadda_stage1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_stage_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dadda_stage2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/mul_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/new/ALU_OPER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_OPER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/imm_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/two_in32bitmix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_in32bitmix
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/ID_EX_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/EX_MA_PR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MA_PR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_slave_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_slave_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_updated
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/spi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_apb_master_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_Q16_16_Mult_0_0/sim/RiscV_BD_Q16_16_Mult_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_Q16_16_Mult_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_register_file_0_0/sim/RiscV_BD_register_file_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_register_file_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_csr_0_0/sim/RiscV_BD_csr_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_csr_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_alu_fixed_point_mux_0_0/sim/RiscV_BD_alu_fixed_point_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_alu_fixed_point_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_csr_mux_0_0/sim/RiscV_BD_csr_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_csr_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_forwarding_mux_0_0/sim/RiscV_BD_forwarding_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_forwarding_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_load_extend_0_0/sim/RiscV_BD_load_extend_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_load_extend_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_Write_back_Mux_0_0/sim/RiscV_BD_Write_back_Mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_Write_back_Mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_combinational_0_0/sim/RiscV_BD_combinational_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_combinational_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_instr_retire_mux_0_0/sim/RiscV_BD_instr_retire_mux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_instr_retire_mux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_0_0/sim/RiscV_BD_concat_2to1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_concat_2to1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_1_0/sim/RiscV_BD_concat_2to1_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_concat_2to1_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_2_0/sim/RiscV_BD_concat_2to1_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_concat_2to1_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_or_gate_1_0/sim/RiscV_BD_or_gate_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_or_gate_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_alu_muxes_0_2/sim/RiscV_BD_alu_muxes_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_alu_muxes_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_pc_0_0/sim/RiscV_BD_pc_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_pc_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_branch_fsm_0_0/sim/RiscV_BD_branch_fsm_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_branch_fsm_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_mul_fsm_0_0/sim/RiscV_BD_mul_fsm_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_mul_fsm_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_IF_ID_PR_0_0/sim/RiscV_BD_IF_ID_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_IF_ID_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_MA_WB_PR_0_0/sim/RiscV_BD_MA_WB_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_MA_WB_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ALU_OPER_0_0/sim/RiscV_BD_ALU_OPER_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_ALU_OPER_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_controller_0_0/sim/RiscV_BD_controller_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_controller_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_imm_extend_0_0/sim/RiscV_BD_imm_extend_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_imm_extend_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_data_mem_0_0/sim/RiscV_BD_data_mem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_data_mem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_hazard_unit_0_0/sim/RiscV_BD_hazard_unit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_hazard_unit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_0_0/sim/RiscV_BD_two_in32bitmix_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_two_in32bitmix_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_1_0/sim/RiscV_BD_two_in32bitmix_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_two_in32bitmix_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ID_EX_PR_0_0/sim/RiscV_BD_ID_EX_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_ID_EX_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_EX_MA_PR_0_0/sim/RiscV_BD_EX_MA_PR_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_EX_MA_PR_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_instr_mem_0_0/sim/RiscV_BD_instr_mem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_instr_mem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_apb_soc_top_0_0/sim/RiscV_BD_apb_soc_top_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_apb_soc_top_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/sim/RiscV_BD_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.ip_user_files/bd/RiscV_BD/sim/RiscV_BD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/new/RiscV_BD_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_BD_wrapper_tb
+"xvhdl --incr --relax -prj RiscV_BD_wrapper_tb_vhdl.prj"
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1398.422 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '10' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+"xelab -wto 825d914d5bae4902b22375897d789401 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot RiscV_BD_wrapper_tb_behav xil_defaultlib.RiscV_BD_wrapper_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 825d914d5bae4902b22375897d789401 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot RiscV_BD_wrapper_tb_behav xil_defaultlib.RiscV_BD_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'clk' is not connected on this instance [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:108]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling module xil_defaultlib.Booth_PP
+Compiling module xil_defaultlib.Dadda_stage1
+Compiling module xil_defaultlib.Dadda_stage2
+Compiling module xil_defaultlib.mul_top
+Compiling module xil_defaultlib.ALU_OPER
+Compiling module xil_defaultlib.RiscV_BD_ALU_OPER_0_0
+Compiling module xil_defaultlib.EX_MA_PR
+Compiling module xil_defaultlib.RiscV_BD_EX_MA_PR_0_0
+Compiling module xil_defaultlib.ID_EX_PR
+Compiling module xil_defaultlib.RiscV_BD_ID_EX_PR_0_0
+Compiling module xil_defaultlib.IF_ID_PR
+Compiling module xil_defaultlib.RiscV_BD_IF_ID_PR_0_0
+Compiling module xil_defaultlib.MA_WB_PR
+Compiling module xil_defaultlib.RiscV_BD_MA_WB_PR_0_0
+Compiling module xil_defaultlib.Booth_PP_FM
+Compiling module xil_defaultlib.Dadda_tree
+Compiling module xil_defaultlib.Q16_16_Mult
+Compiling module xil_defaultlib.RiscV_BD_Q16_16_Mult_0_0
+Compiling module xil_defaultlib.Write_back_Mux
+Compiling module xil_defaultlib.RiscV_BD_Write_back_Mux_0_0
+Compiling module xil_defaultlib.alu_fixed_point_mux
+Compiling module xil_defaultlib.RiscV_BD_alu_fixed_point_mux_0_0
+Compiling module xil_defaultlib.alu_muxes
+Compiling module xil_defaultlib.RiscV_BD_alu_muxes_0_2
+Compiling module xil_defaultlib.apb_master
+Compiling module xil_defaultlib.apb_slave_decoder
+Compiling module xil_defaultlib.gpio_updated
+Compiling module xil_defaultlib.spi_apb_master_tx
+Compiling module xil_defaultlib.apb_soc_top
+Compiling module xil_defaultlib.RiscV_BD_apb_soc_top_0_0
+Compiling module xil_defaultlib.branch_fsm
+Compiling module xil_defaultlib.RiscV_BD_branch_fsm_0_0
+Compiling module xil_defaultlib.combinational
+Compiling module xil_defaultlib.RiscV_BD_combinational_0_0
+Compiling module xil_defaultlib.concat_2to1
+Compiling module xil_defaultlib.RiscV_BD_concat_2to1_0_0
+Compiling module xil_defaultlib.RiscV_BD_concat_2to1_1_0
+Compiling module xil_defaultlib.RiscV_BD_concat_2to1_2_0
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.RiscV_BD_controller_0_0
+Compiling module xil_defaultlib.csr
+Compiling module xil_defaultlib.RiscV_BD_csr_0_0
+Compiling module xil_defaultlib.csr_mux
+Compiling module xil_defaultlib.RiscV_BD_csr_mux_0_0
+Compiling architecture dmem_arch of entity xil_defaultlib.data_mem [data_mem_default]
+Compiling module xil_defaultlib.RiscV_BD_data_mem_0_0
+Compiling module xil_defaultlib.forwarding_mux
+Compiling module xil_defaultlib.RiscV_BD_forwarding_mux_0_0
+Compiling module xil_defaultlib.hazard_unit
+Compiling module xil_defaultlib.RiscV_BD_hazard_unit_0_0
+Compiling module xil_defaultlib.RiscV_BD_ila_0_0
+Compiling module xil_defaultlib.imm_extend
+Compiling module xil_defaultlib.RiscV_BD_imm_extend_0_0
+Compiling architecture mem_arch of entity xil_defaultlib.instr_mem [instr_mem_default]
+Compiling module xil_defaultlib.RiscV_BD_instr_mem_0_0
+Compiling module xil_defaultlib.instr_retire_mux
+Compiling module xil_defaultlib.RiscV_BD_instr_retire_mux_0_0
+Compiling module xil_defaultlib.load_extend
+Compiling module xil_defaultlib.RiscV_BD_load_extend_0_0
+Compiling module xil_defaultlib.mul_fsm
+Compiling module xil_defaultlib.RiscV_BD_mul_fsm_0_0
+Compiling module xil_defaultlib.or_gate
+Compiling module xil_defaultlib.RiscV_BD_or_gate_1_0
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.RiscV_BD_pc_0_0
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.RiscV_BD_register_file_0_0
+Compiling module xil_defaultlib.two_in32bitmix
+Compiling module xil_defaultlib.RiscV_BD_two_in32bitmix_0_0
+Compiling module xil_defaultlib.RiscV_BD_two_in32bitmix_1_0
+Compiling module xil_defaultlib.RiscV_BD
+Compiling module xil_defaultlib.RiscV_BD_wrapper
+Compiling module xil_defaultlib.RiscV_BD_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RiscV_BD_wrapper_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/IIT -notrace
+couldn't read file "D:/IIT": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 17 05:29:46 2026...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1398.422 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "RiscV_BD_wrapper_tb_behav -key {Behavioral:sim_1:Functional:RiscV_BD_wrapper_tb} -tclbatch {RiscV_BD_wrapper_tb.tcl} -protoinst "protoinst_files/RiscV_BD.protoinst" -view {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/RiscV_BD.protoinst
+Time resolution is 1 ps
+open_wave_config {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg}
+open_wave_config: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1408.668 ; gain = 0.000
+source RiscV_BD_wrapper_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1418.422 ; gain = 20.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'RiscV_BD_wrapper_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:32 . Memory (MB): peak = 1418.422 ; gain = 20.000
+relaunch_sim

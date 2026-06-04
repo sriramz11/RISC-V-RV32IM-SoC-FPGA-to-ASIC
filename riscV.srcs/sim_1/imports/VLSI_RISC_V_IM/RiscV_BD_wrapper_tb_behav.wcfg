@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RiscV_BD_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RiscV_BD_wrapper_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1798342fs"></ZoomStartTime>
+      <ZoomEndTime time="2056343fs"></ZoomEndTime>
+      <Cursor1Time time="1908142fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="174"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wave_markers>
+      <marker time="2007" label="" />
+      <marker time="50" label="" />
+      <marker time="440" label="" />
+      <marker time="825" label="" />
+      <marker time="955" label="" />
+      <marker time="1015" label="" />
+      <marker time="1035" label="" />
+      <marker time="1125" label="" />
+      <marker time="1155" label="" />
+   </wave_markers>
+   <wvobject fp_name="/RiscV_BD_wrapper_tb/clk_0" type="logic">
+      <obj_property name="ElementShortName">clk_0</obj_property>
+      <obj_property name="ObjectShortName">clk_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RiscV_BD_wrapper_tb/reset_0" type="logic">
+      <obj_property name="ElementShortName">reset_0</obj_property>
+      <obj_property name="ObjectShortName">reset_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="group346" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/pc_0/stall" type="logic">
+         <obj_property name="ElementShortName">stall</obj_property>
+         <obj_property name="ObjectShortName">stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/pc_0/pc_alu" type="array">
+         <obj_property name="ElementShortName">pc_alu[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_alu[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/pc_0/pc_mtvec" type="array">
+         <obj_property name="ElementShortName">pc_mtvec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_mtvec[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/pc_0/pc_mepc" type="array">
+         <obj_property name="ElementShortName">pc_mepc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_mepc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/pc_0/pc_mux_sel" type="array">
+         <obj_property name="ElementShortName">pc_mux_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_mux_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/pc_0/pc_inc" type="array">
+         <obj_property name="ElementShortName">pc_inc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_inc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/pc_0/pc_f" type="array">
+         <obj_property name="ElementShortName">pc_f[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_f[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/instr_mem_0/inst/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group289" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/funct3" type="array">
+         <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/funct7" type="array">
+         <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+         <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/interrupt_in" type="logic">
+         <obj_property name="ElementShortName">interrupt_in</obj_property>
+         <obj_property name="ObjectShortName">interrupt_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/ResultSrc" type="array">
+         <obj_property name="ElementShortName">ResultSrc[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrc[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/Jump" type="logic">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/ALUOpCtrl" type="array">
+         <obj_property name="ElementShortName">ALUOpCtrl[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOpCtrl[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/ALUSrc" type="array">
+         <obj_property name="ElementShortName">ALUSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/ImmSrc" type="array">
+         <obj_property name="ElementShortName">ImmSrc[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrc[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/excep" type="logic">
+         <obj_property name="ElementShortName">excep</obj_property>
+         <obj_property name="ObjectShortName">excep</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/interrupt_out" type="logic">
+         <obj_property name="ElementShortName">interrupt_out</obj_property>
+         <obj_property name="ObjectShortName">interrupt_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/csr_op" type="array">
+         <obj_property name="ElementShortName">csr_op[1:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_op[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/csr_wen" type="logic">
+         <obj_property name="ElementShortName">csr_wen</obj_property>
+         <obj_property name="ObjectShortName">csr_wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/instr_retired" type="logic">
+         <obj_property name="ElementShortName">instr_retired</obj_property>
+         <obj_property name="ObjectShortName">instr_retired</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/fixed_pMUX" type="logic">
+         <obj_property name="ElementShortName">fixed_pMUX</obj_property>
+         <obj_property name="ObjectShortName">fixed_pMUX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/load_src" type="array">
+         <obj_property name="ElementShortName">load_src[2:0]</obj_property>
+         <obj_property name="ObjectShortName">load_src[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/mem2reg" type="logic">
+         <obj_property name="ElementShortName">mem2reg</obj_property>
+         <obj_property name="ObjectShortName">mem2reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/processor_request" type="logic">
+         <obj_property name="ElementShortName">processor_request</obj_property>
+         <obj_property name="ObjectShortName">processor_request</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/processor_wen" type="logic">
+         <obj_property name="ElementShortName">processor_wen</obj_property>
+         <obj_property name="ObjectShortName">processor_wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/controller_0/peripheral_load" type="logic">
+         <obj_property name="ElementShortName">peripheral_load</obj_property>
+         <obj_property name="ObjectShortName">peripheral_load</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group356" type="group">
+      <obj_property name="label">REG FILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/syn_rst" type="logic">
+         <obj_property name="ElementShortName">syn_rst</obj_property>
+         <obj_property name="ObjectShortName">syn_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/rs1" type="array">
+         <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/rd_data1" type="array">
+         <obj_property name="ElementShortName">rd_data1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/rs2" type="array">
+         <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/rd_data2" type="array">
+         <obj_property name="ElementShortName">rd_data2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/rd" type="array">
+         <obj_property name="ElementShortName">rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/wr_data" type="array">
+         <obj_property name="ElementShortName">wr_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/register_file_0/reg_write" type="logic">
+         <obj_property name="ElementShortName">reg_write</obj_property>
+         <obj_property name="ObjectShortName">reg_write</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group243" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/alu_in_1" type="array">
+         <obj_property name="ElementShortName">alu_in_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_in_1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/alu_in_2" type="array">
+         <obj_property name="ElementShortName">alu_in_2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_in_2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/alu_oper" type="array">
+         <obj_property name="ElementShortName">alu_oper[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_oper[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/branch_E" type="logic">
+         <obj_property name="ElementShortName">branch_E</obj_property>
+         <obj_property name="ObjectShortName">branch_E</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/alu_out" type="array">
+         <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/ALU_OPER_0/branch_condi" type="logic">
+         <obj_property name="ElementShortName">branch_condi</obj_property>
+         <obj_property name="ObjectShortName">branch_condi</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group309" type="group">
+      <obj_property name="label">Data Mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/data_mem_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/data_mem_0/memWrite_en" type="logic">
+         <obj_property name="ElementShortName">memWrite_en</obj_property>
+         <obj_property name="ObjectShortName">memWrite_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/data_mem_0/dmem_addr" type="array">
+         <obj_property name="ElementShortName">dmem_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dmem_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/data_mem_0/write_data" type="array">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/data_mem_0/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group251" type="group">
+      <obj_property name="label">WB MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/Write_back_Mux_0/Alu_result_W" type="array">
+         <obj_property name="ElementShortName">Alu_result_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Alu_result_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/Write_back_Mux_0/Read_data_W" type="array">
+         <obj_property name="ElementShortName">Read_data_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Read_data_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/Write_back_Mux_0/Ex_Imm_W" type="array">
+         <obj_property name="ElementShortName">Ex_Imm_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Ex_Imm_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/Write_back_Mux_0/PC_plus4_W" type="array">
+         <obj_property name="ElementShortName">PC_plus4_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_plus4_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/Write_back_Mux_0/CSR_rdata_W" type="array">
+         <obj_property name="ElementShortName">CSR_rdata_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSR_rdata_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/Write_back_Mux_0/W_data" type="array">
+         <obj_property name="ElementShortName">W_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">W_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/Write_back_Mux_0/result_src_W" type="array">
+         <obj_property name="ElementShortName">result_src_W[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_src_W[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group265" type="group">
+      <obj_property name="label">APB_GPIO_SPI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/proc_addr" type="array">
+         <obj_property name="ElementShortName">proc_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/proc_wdata" type="array">
+         <obj_property name="ElementShortName">proc_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/proc_wr_en" type="logic">
+         <obj_property name="ElementShortName">proc_wr_en</obj_property>
+         <obj_property name="ObjectShortName">proc_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/proc_req" type="logic">
+         <obj_property name="ElementShortName">proc_req</obj_property>
+         <obj_property name="ObjectShortName">proc_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/proc_rdata" type="array">
+         <obj_property name="ElementShortName">proc_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/proc_ack" type="logic">
+         <obj_property name="ElementShortName">proc_ack</obj_property>
+         <obj_property name="ObjectShortName">proc_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/gpio_pins" type="array">
+         <obj_property name="ElementShortName">gpio_pins[15:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_pins[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/gpio_interrupt" type="logic">
+         <obj_property name="ElementShortName">gpio_interrupt</obj_property>
+         <obj_property name="ObjectShortName">gpio_interrupt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/spi_sclk" type="logic">
+         <obj_property name="ElementShortName">spi_sclk</obj_property>
+         <obj_property name="ObjectShortName">spi_sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/spi_mosi" type="logic">
+         <obj_property name="ElementShortName">spi_mosi</obj_property>
+         <obj_property name="ObjectShortName">spi_mosi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/apb_soc_top_0/spi_ss_n" type="logic">
+         <obj_property name="ElementShortName">spi_ss_n</obj_property>
+         <obj_property name="ObjectShortName">spi_ss_n</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group303" type="group">
+      <obj_property name="label">csr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/csr_addr" type="array">
+         <obj_property name="ElementShortName">csr_addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_addr[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/csr_op" type="array">
+         <obj_property name="ElementShortName">csr_op[1:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_op[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/csr_wen" type="logic">
+         <obj_property name="ElementShortName">csr_wen</obj_property>
+         <obj_property name="ObjectShortName">csr_wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/rs1_data" type="array">
+         <obj_property name="ElementShortName">rs1_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs1_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/instr_retired" type="logic">
+         <obj_property name="ElementShortName">instr_retired</obj_property>
+         <obj_property name="ObjectShortName">instr_retired</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/csr_exc" type="logic">
+         <obj_property name="ElementShortName">csr_exc</obj_property>
+         <obj_property name="ObjectShortName">csr_exc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/pc_current" type="array">
+         <obj_property name="ElementShortName">pc_current[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_current[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/csr_rdata" type="array">
+         <obj_property name="ElementShortName">csr_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/mtvec_out" type="array">
+         <obj_property name="ElementShortName">mtvec_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mtvec_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/mepc_out" type="array">
+         <obj_property name="ElementShortName">mepc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mepc_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/csr_0/mstatus_mie" type="logic">
+         <obj_property name="ElementShortName">mstatus_mie</obj_property>
+         <obj_property name="ObjectShortName">mstatus_mie</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group336" type="group">
+      <obj_property name="label">Hazard</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/rdmem" type="array">
+         <obj_property name="ElementShortName">rdmem[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rdmem[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/rs1ex" type="array">
+         <obj_property name="ElementShortName">rs1ex[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs1ex[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/rs2ex" type="array">
+         <obj_property name="ElementShortName">rs2ex[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs2ex[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/rdwb" type="array">
+         <obj_property name="ElementShortName">rdwb[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rdwb[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/rdex" type="array">
+         <obj_property name="ElementShortName">rdex[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rdex[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/rs1id" type="array">
+         <obj_property name="ElementShortName">rs1id[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs1id[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/rs2id" type="array">
+         <obj_property name="ElementShortName">rs2id[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs2id[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/memtoreg" type="logic">
+         <obj_property name="ElementShortName">memtoreg</obj_property>
+         <obj_property name="ObjectShortName">memtoreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/condition_stall" type="logic">
+         <obj_property name="ElementShortName">condition_stall</obj_property>
+         <obj_property name="ObjectShortName">condition_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/jump_branch_flush" type="logic">
+         <obj_property name="ElementShortName">jump_branch_flush</obj_property>
+         <obj_property name="ObjectShortName">jump_branch_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/mul_stall" type="logic">
+         <obj_property name="ElementShortName">mul_stall</obj_property>
+         <obj_property name="ObjectShortName">mul_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/processor_request" type="logic">
+         <obj_property name="ElementShortName">processor_request</obj_property>
+         <obj_property name="ObjectShortName">processor_request</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/processor_wen" type="logic">
+         <obj_property name="ElementShortName">processor_wen</obj_property>
+         <obj_property name="ObjectShortName">processor_wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/peripheral_load" type="logic">
+         <obj_property name="ElementShortName">peripheral_load</obj_property>
+         <obj_property name="ObjectShortName">peripheral_load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/proc_ack" type="logic">
+         <obj_property name="ElementShortName">proc_ack</obj_property>
+         <obj_property name="ObjectShortName">proc_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/mem_sel_s1" type="logic">
+         <obj_property name="ElementShortName">mem_sel_s1</obj_property>
+         <obj_property name="ObjectShortName">mem_sel_s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/mem_sel_s2" type="logic">
+         <obj_property name="ElementShortName">mem_sel_s2</obj_property>
+         <obj_property name="ObjectShortName">mem_sel_s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/wb_sel_s1" type="logic">
+         <obj_property name="ElementShortName">wb_sel_s1</obj_property>
+         <obj_property name="ObjectShortName">wb_sel_s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/wb_sel_s2" type="logic">
+         <obj_property name="ElementShortName">wb_sel_s2</obj_property>
+         <obj_property name="ObjectShortName">wb_sel_s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/stall_pc" type="logic">
+         <obj_property name="ElementShortName">stall_pc</obj_property>
+         <obj_property name="ObjectShortName">stall_pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/stall_ifid" type="logic">
+         <obj_property name="ElementShortName">stall_ifid</obj_property>
+         <obj_property name="ObjectShortName">stall_ifid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/flushe" type="logic">
+         <obj_property name="ElementShortName">flushe</obj_property>
+         <obj_property name="ObjectShortName">flushe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/flushd" type="logic">
+         <obj_property name="ElementShortName">flushd</obj_property>
+         <obj_property name="ObjectShortName">flushd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/stall_idex" type="logic">
+         <obj_property name="ElementShortName">stall_idex</obj_property>
+         <obj_property name="ObjectShortName">stall_idex</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/stall_exmem" type="logic">
+         <obj_property name="ElementShortName">stall_exmem</obj_property>
+         <obj_property name="ObjectShortName">stall_exmem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RiscV_BD_wrapper_tb/uut/RiscV_BD_i/hazard_unit_0/stall_memwb" type="logic">
+         <obj_property name="ElementShortName">stall_memwb</obj_property>
+         <obj_property name="ObjectShortName">stall_memwb</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

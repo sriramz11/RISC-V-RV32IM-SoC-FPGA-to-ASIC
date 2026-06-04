@@ -1,0 +1,164 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr  7 13:18:44 2026
+# Process ID: 17676
+# Current directory: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18456 D:\IIT BOMBAY\SEM 2\DESIGN LAB\COURSE PRPJECT\FINAL_TEST2\FINAL_TEST2\FINAL_TEST2.xpr
+# Log file: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/vivado.log
+# Journal file: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ramch/Downloads/FINAL_TEST2/FINAL_TEST2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1110.465 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}
+Reading block design file <D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd>...
+Adding component instance block -- xilinx.com:module_ref:Q16_16_Mult:1.0 - Q16_16_Mult_0
+Adding component instance block -- xilinx.com:module_ref:register_file:1.0 - register_file_0
+Adding component instance block -- xilinx.com:module_ref:csr:1.0 - csr_0
+Adding component instance block -- xilinx.com:module_ref:alu_fixed_point_mux:1.0 - alu_fixed_point_mux_0
+Adding component instance block -- xilinx.com:module_ref:csr_mux:1.0 - csr_mux_0
+Adding component instance block -- xilinx.com:module_ref:forwarding_mux:1.0 - forwarding_mux_0
+Adding component instance block -- xilinx.com:module_ref:load_extend:1.0 - load_extend_0
+Adding component instance block -- xilinx.com:module_ref:Write_back_Mux:1.0 - Write_back_Mux_0
+Adding component instance block -- xilinx.com:module_ref:combinational:1.0 - combinational_0
+Adding component instance block -- xilinx.com:module_ref:instr_retire_mux:1.0 - instr_retire_mux_0
+Adding component instance block -- xilinx.com:module_ref:concat_2to1:1.0 - concat_2to1_0
+Adding component instance block -- xilinx.com:module_ref:concat_2to1:1.0 - concat_2to1_1
+Adding component instance block -- xilinx.com:module_ref:concat_2to1:1.0 - concat_2to1_2
+Adding component instance block -- xilinx.com:module_ref:or_gate:1.0 - or_gate_1
+Adding component instance block -- xilinx.com:module_ref:alu_muxes:1.0 - alu_muxes_0
+Adding component instance block -- xilinx.com:module_ref:pc:1.0 - pc_0
+Adding component instance block -- xilinx.com:module_ref:branch_fsm:1.0 - branch_fsm_0
+Adding component instance block -- xilinx.com:module_ref:mul_fsm:1.0 - mul_fsm_0
+Adding component instance block -- xilinx.com:module_ref:IF_ID_PR:1.0 - IF_ID_PR_0
+Adding component instance block -- xilinx.com:module_ref:MA_WB_PR:1.0 - MA_WB_PR_0
+Adding component instance block -- xilinx.com:module_ref:ALU_OPER:1.0 - ALU_OPER_0
+Adding component instance block -- xilinx.com:module_ref:controller:1.0 - controller_0
+Adding component instance block -- xilinx.com:module_ref:imm_extend:1.0 - imm_extend_0
+Adding component instance block -- xilinx.com:module_ref:data_mem:1.0 - data_mem_0
+Adding component instance block -- xilinx.com:module_ref:hazard_unit:1.0 - hazard_unit_0
+Adding component instance block -- xilinx.com:module_ref:two_in32bitmix:1.0 - two_in32bitmix_0
+Adding component instance block -- xilinx.com:module_ref:two_in32bitmix:1.0 - two_in32bitmix_1
+Adding component instance block -- xilinx.com:module_ref:ID_EX_PR:1.0 - ID_EX_PR_0
+Adding component instance block -- xilinx.com:module_ref:EX_MA_PR:1.0 - EX_MA_PR_0
+Adding component instance block -- xilinx.com:module_ref:instr_mem:1.0 - instr_mem_0
+Adding component instance block -- xilinx.com:module_ref:apb_soc_top:1.0 - apb_soc_top_0
+Successfully read diagram <RiscV_BD> from block design file <D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1162.816 ; gain = 52.352
+export_ip_user_files -of_objects  [get_files {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v}}
+file delete -force {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:ila:6.2 ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+endgroup
+set_property location {13.5 4193 -1139} [get_bd_cells ila_0]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {43} CONFIG.C_ENABLE_ILA_AXI_MON {false} CONFIG.C_MONITOR_TYPE {Native}] [get_bd_cells ila_0]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_PROBE31_WIDTH {32} CONFIG.C_PROBE28_WIDTH {32} CONFIG.C_PROBE27_WIDTH {32} CONFIG.C_PROBE26_WIDTH {32} CONFIG.C_PROBE25_WIDTH {32} CONFIG.C_PROBE24_WIDTH {32} CONFIG.C_PROBE23_WIDTH {32} CONFIG.C_PROBE22_WIDTH {32} CONFIG.C_PROBE21_WIDTH {32} CONFIG.C_PROBE20_WIDTH {32} CONFIG.C_PROBE19_WIDTH {32} CONFIG.C_PROBE18_WIDTH {32} CONFIG.C_PROBE17_WIDTH {32} CONFIG.C_PROBE16_WIDTH {32} CONFIG.C_PROBE15_WIDTH {1} CONFIG.C_PROBE14_WIDTH {2} CONFIG.C_PROBE12_WIDTH {1} CONFIG.C_PROBE11_WIDTH {12} CONFIG.C_PROBE10_WIDTH {32} CONFIG.C_PROBE9_WIDTH {32} CONFIG.C_PROBE8_WIDTH {5} CONFIG.C_PROBE7_WIDTH {32} CONFIG.C_PROBE6_WIDTH {5} CONFIG.C_PROBE5_WIDTH {32} CONFIG.C_PROBE4_WIDTH {5} CONFIG.C_PROBE3_WIDTH {7} CONFIG.C_PROBE2_WIDTH {32} CONFIG.C_PROBE1_WIDTH {32}] [get_bd_cells ila_0]
+connect_bd_net [get_bd_ports clk_0] [get_bd_pins ila_0/clk]
+connect_bd_net [get_bd_ports reset_0] [get_bd_pins ila_0/probe0]
+connect_bd_net [get_bd_pins ila_0/probe1] [get_bd_pins pc_0/pc_f]
+connect_bd_net [get_bd_pins instr_mem_0/instr] [get_bd_pins ila_0/probe2]
+connect_bd_net [get_bd_pins IF_ID_PR_0/opcode] [get_bd_pins ila_0/probe3]
+connect_bd_net [get_bd_pins ila_0/probe4] [get_bd_pins IF_ID_PR_0/Rs1_D]
+connect_bd_net [get_bd_pins register_file_0/rd_data1] [get_bd_pins ila_0/probe5]
+connect_bd_net [get_bd_pins ila_0/probe6] [get_bd_pins IF_ID_PR_0/Rs2_D]
+connect_bd_net [get_bd_pins register_file_0/rd_data2] [get_bd_pins ila_0/probe7]
+connect_bd_net [get_bd_pins ila_0/probe8] [get_bd_pins MA_WB_PR_0/RD_W]
+connect_bd_net [get_bd_pins ila_0/probe9] [get_bd_pins Write_back_Mux_0/W_data]
+connect_bd_net [get_bd_pins ila_0/probe10] [get_bd_pins imm_extend_0/imm_out]
+disconnect_bd_net /imm_extend_0_imm_out [get_bd_pins ila_0/probe10]
+connect_bd_net [get_bd_pins ila_0/probe10] [get_bd_pins MA_WB_PR_0/Ex_imm_W]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins ila_0/probe10] [get_bd_pins MA_WB_PR_0/Ex_imm_W]'
+undo
+INFO: [Common 17-17] undo 'disconnect_bd_net /imm_extend_0_imm_out [get_bd_pins ila_0/probe10]'
+connect_bd_net [get_bd_pins ila_0/probe11] [get_bd_pins IF_ID_PR_0/csr_add_D]
+connect_bd_net [get_bd_pins csr_0/csr_rdata] [get_bd_pins ila_0/probe16]
+connect_bd_net [get_bd_pins ila_0/probe12] [get_bd_pins controller_0/Jump]
+connect_bd_net [get_bd_pins controller_0/Branch] [get_bd_pins ila_0/probe13]
+connect_bd_net [get_bd_pins ila_0/probe14] [get_bd_pins controller_0/csr_op]
+connect_bd_net [get_bd_pins controller_0/excep] [get_bd_pins ila_0/probe15]
+connect_bd_net [get_bd_pins ila_0/probe17] [get_bd_pins csr_0/mepc_out]
+connect_bd_net [get_bd_pins csr_0/mtvec_out] [get_bd_pins ila_0/probe18]
+connect_bd_net [get_bd_pins ila_0/probe19] [get_bd_pins alu_muxes_0/alu_input_1]
+connect_bd_net [get_bd_pins ila_0/probe20] [get_bd_pins alu_muxes_0/alu_input_2]
+connect_bd_net [get_bd_pins ila_0/probe21] [get_bd_pins two_in32bitmix_0/result]
+connect_bd_net [get_bd_pins ila_0/probe22] [get_bd_pins forwarding_mux_0/rs1]
+connect_bd_net [get_bd_pins ila_0/probe23] [get_bd_pins forwarding_mux_0/rs2]
+connect_bd_net [get_bd_pins Q16_16_Mult_0/result] [get_bd_pins ila_0/probe24]
+connect_bd_net [get_bd_pins ila_0/probe25] [get_bd_pins EX_MA_PR_0/ALU_result_M]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins ila_0/probe25] [get_bd_pins EX_MA_PR_0/ALU_result_M]'
+connect_bd_net [get_bd_pins ila_0/probe25] [get_bd_pins EX_MA_PR_0/write_data_M]
+connect_bd_net [get_bd_pins ila_0/probe26] [get_bd_pins data_mem_0/data_out]
+connect_bd_net [get_bd_pins ila_0/probe27] [get_bd_pins EX_MA_PR_0/ALU_result_M]
+connect_bd_net [get_bd_pins ila_0/probe29] [get_bd_pins EX_MA_PR_0/peripheral_wen_M]
+connect_bd_net [get_bd_pins ila_0/probe30] [get_bd_pins EX_MA_PR_0/proces_req_M]
+connect_bd_net [get_bd_pins apb_soc_top_0/proc_rdata] [get_bd_pins ila_0/probe31]
+connect_bd_net [get_bd_pins ila_0/probe32] [get_bd_pins apb_soc_top_0/proc_ack]
+connect_bd_net [get_bd_pins ila_0/probe33] [get_bd_pins apb_soc_top_0/gpio_interrupt]
+startgroup
+make_bd_pins_external  [get_bd_pins apb_soc_top_0/spi_sclk]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins apb_soc_top_0/spi_mosi]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins apb_soc_top_0/spi_ss_n]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins apb_soc_top_0/gpio_pins]
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.C_PROBE34_WIDTH {32}] [get_bd_cells ila_0]
+endgroup
+connect_bd_net [get_bd_pins ila_0/probe34] [get_bd_pins EX_MA_PR_0/Ex_Imm_M]
+disconnect_bd_net /EX_MA_PR_0_Ex_Imm_M [get_bd_pins ila_0/probe34]
+connect_bd_net [get_bd_pins ila_0/probe28] [get_bd_pins EX_MA_PR_0/Ex_Imm_M]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.C_PROBE34_WIDTH {1}] [get_bd_cells ila_0]
+endgroup
+connect_bd_net [get_bd_pins ila_0/probe34] [get_bd_pins hazard_unit_0/stall_pc]
+connect_bd_net [get_bd_pins hazard_unit_0/stall_pc] [get_bd_pins ila_0/probe35]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins hazard_unit_0/stall_pc] [get_bd_pins ila_0/probe35]'
+connect_bd_net [get_bd_pins ila_0/probe35] [get_bd_pins hazard_unit_0/stall_ifid]
+connect_bd_net [get_bd_pins hazard_unit_0/stall_idex] [get_bd_pins ila_0/probe36]
+connect_bd_net [get_bd_pins ila_0/probe37] [get_bd_pins hazard_unit_0/stall_exmem]
+connect_bd_net [get_bd_pins hazard_unit_0/stall_memwb] [get_bd_pins ila_0/probe38]
+connect_bd_net [get_bd_pins ila_0/probe39] [get_bd_pins hazard_unit_0/flushe]
+connect_bd_net [get_bd_pins hazard_unit_0/flushd] [get_bd_pins ila_0/probe40]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {41}] [get_bd_cells ila_0]
+endgroup
+save_bd_design
+Wrote  : <D:\IIT BOMBAY\SEM 2\DESIGN LAB\COURSE PRPJECT\FINAL_TEST2\FINAL_TEST2\FINAL_TEST2.srcs\sources_1\bd\RiscV_BD\RiscV_BD.bd> 
+Wrote  : <D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/ui/bd_3ef32312.ui> 
+validate_bd_design
+make_wrapper -files [get_files {{D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}}] -top
+INFO: [BD 41-1662] The design 'RiscV_BD.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\IIT BOMBAY\SEM 2\DESIGN LAB\COURSE PRPJECT\FINAL_TEST2\FINAL_TEST2\FINAL_TEST2.srcs\sources_1\bd\RiscV_BD\RiscV_BD.bd> 
+Wrote  : <D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/ui/bd_3ef32312.ui> 
+VHDL Output written to : d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v
+VHDL Output written to : d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/sim/RiscV_BD.v
+VHDL Output written to : d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1568.945 ; gain = 146.625
+add_files -norecurse {{d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v}}
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  7 14:09:39 2026...

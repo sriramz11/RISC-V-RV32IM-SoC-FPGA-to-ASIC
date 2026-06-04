@@ -1,0 +1,1553 @@
+
+*** Running vivado
+    with args -log RiscV_BD_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RiscV_BD_wrapper.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source RiscV_BD_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'syn_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'csr'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'interrupt' of definition 'xilinx.com:signal:interrupt:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'interrupt': Added interface parameter 'SENSITIVITY' with value 'LEVEL_HIGH'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'CSR_W'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-4821] For module 'branch_fsm', parameter 'IDLE' is inferred to be bitString format.
+INFO: [IP_Flow 19-4821] For module 'branch_fsm', parameter 'ADD_CALC' is inferred to be bitString format.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_p' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_p' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'CSR_M'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'CSR_W'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'CSR_D'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'CSR_E'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'CSR_E'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '31:0' is present in all ports of the interface 'CSR_M'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [IP_Flow 19-5150] The Range '(DATA_WIDTH - 1):0' is present in all ports of the interface 'proc'. It is assumed that this is meant to declare an array of interface. However, the IP Packager does not currently support Interface Arrays of variable length (based on a parameter). Please change the range to be a constant if you want IP Packager to infer this as an interface array.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'gpio_interrupt' of definition 'xilinx.com:signal:interrupt:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'gpio_interrupt': Added interface parameter 'SENSITIVITY' with value 'LEVEL_HIGH'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1143.492 ; gain = 0.000
+Command: synth_design -top RiscV_BD_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23192
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1223.555 ; gain = 80.062
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_wrapper' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:13]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_ALU_OPER_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ALU_OPER_0_0/synth/RiscV_BD_ALU_OPER_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'ALU_OPER' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/new/ALU_OPER.v:22]
+	Parameter ADD_BEQ bound to: 4'b0000 
+	Parameter SUB_BNE bound to: 4'b0001 
+	Parameter SLL_BLT bound to: 4'b0010 
+	Parameter SLT_BGE bound to: 4'b0011 
+	Parameter SLTU_BLTU bound to: 4'b0100 
+	Parameter XOR_BGEU bound to: 4'b0101 
+	Parameter SRL bound to: 4'b0110 
+	Parameter SRA bound to: 4'b0111 
+	Parameter OR bound to: 4'b1000 
+	Parameter AND bound to: 4'b1001 
+	Parameter MUL bound to: 4'b1010 
+INFO: [Synth 8-6157] synthesizing module 'mul_top' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/mul_top.v:53]
+INFO: [Synth 8-6157] synthesizing module 'Booth_PP' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Booth_PP.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Booth_PP' (1#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Booth_PP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Dadda_stage1' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_Stage_1.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Dadda_stage1' (2#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_Stage_1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Dadda_stage2' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_stage_2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Dadda_stage2' (3#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_stage_2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'mul_top' (4#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/mul_top.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_OPER' (5#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/new/ALU_OPER.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_ALU_OPER_0_0' (6#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ALU_OPER_0_0/synth/RiscV_BD_ALU_OPER_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_EX_MA_PR_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_EX_MA_PR_0_0/synth/RiscV_BD_EX_MA_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'EX_MA_PR' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/EX_MA_PR.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EX_MA_PR' (7#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/EX_MA_PR.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_EX_MA_PR_0_0' (8#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_EX_MA_PR_0_0/synth/RiscV_BD_EX_MA_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_ID_EX_PR_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ID_EX_PR_0_0/synth/RiscV_BD_ID_EX_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX_PR' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/ID_EX_PR.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX_PR' (9#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/ID_EX_PR.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_ID_EX_PR_0_0' (10#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ID_EX_PR_0_0/synth/RiscV_BD_ID_EX_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_IF_ID_PR_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_IF_ID_PR_0_0/synth/RiscV_BD_IF_ID_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID_PR' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/IF_ID_PR.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID_PR' (11#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/IF_ID_PR.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_IF_ID_PR_0_0' (12#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_IF_ID_PR_0_0/synth/RiscV_BD_IF_ID_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_MA_WB_PR_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_MA_WB_PR_0_0/synth/RiscV_BD_MA_WB_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'MA_WB_PR' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/MA_WB_PR.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MA_WB_PR' (13#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/MA_WB_PR.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_MA_WB_PR_0_0' (14#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_MA_WB_PR_0_0/synth/RiscV_BD_MA_WB_PR_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_Q16_16_Mult_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_Q16_16_Mult_0_0/synth/RiscV_BD_Q16_16_Mult_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Q16_16_Mult' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Q16_16.v:31]
+INFO: [Synth 8-6157] synthesizing module 'Booth_PP_FM' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Booth_PP.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Booth_PP_FM' (15#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Booth_PP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Dadda_tree' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Dadda_tree.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'Dadda_tree' (16#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Dadda_tree.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'Q16_16_Mult' (17#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/Q16_16.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_Q16_16_Mult_0_0' (18#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_Q16_16_Mult_0_0/synth/RiscV_BD_Q16_16_Mult_0_0.v:58]
+WARNING: [Synth 8-7071] port 'overflow' of module 'RiscV_BD_Q16_16_Mult_0_0' is unconnected for instance 'Q16_16_Mult_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:302]
+WARNING: [Synth 8-7023] instance 'Q16_16_Mult_0' of module 'RiscV_BD_Q16_16_Mult_0_0' has 4 connections declared, but only 3 given [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:302]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_Write_back_Mux_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_Write_back_Mux_0_0/synth/RiscV_BD_Write_back_Mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Write_back_Mux' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/Write_back_Mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Write_back_Mux' (19#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/Write_back_Mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_Write_back_Mux_0_0' (20#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_Write_back_Mux_0_0/synth/RiscV_BD_Write_back_Mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_alu_fixed_point_mux_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_alu_fixed_point_mux_0_0/synth/RiscV_BD_alu_fixed_point_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'alu_fixed_point_mux' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_fixed_point_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu_fixed_point_mux' (21#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_fixed_point_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_alu_fixed_point_mux_0_0' (22#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_alu_fixed_point_mux_0_0/synth/RiscV_BD_alu_fixed_point_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_alu_muxes_0_2' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_alu_muxes_0_2/synth/RiscV_BD_alu_muxes_0_2.v:58]
+INFO: [Synth 8-6157] synthesizing module 'alu_muxes' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_muxes.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu_muxes' (23#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/alu_muxes.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_alu_muxes_0_2' (24#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_alu_muxes_0_2/synth/RiscV_BD_alu_muxes_0_2.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_apb_soc_top_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_apb_soc_top_0_0/synth/RiscV_BD_apb_soc_top_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'apb_soc_top' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:17]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter SPI_CLK_DIV bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'apb_master' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_master.v:7]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter SETUP bound to: 2'b01 
+	Parameter ACCESS bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'apb_master' (25#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_master.v:7]
+INFO: [Synth 8-6157] synthesizing module 'apb_slave_decoder' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_slave_decoder.v:11]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'apb_slave_decoder' (26#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/apb_slave_decoder.v:11]
+WARNING: [Synth 8-7071] port 'clk' of module 'apb_slave_decoder' is unconnected for instance 'u_apb_decoder' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:111]
+WARNING: [Synth 8-7023] instance 'u_apb_decoder' of module 'apb_slave_decoder' has 21 connections declared, but only 20 given [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:111]
+INFO: [Synth 8-6157] synthesizing module 'gpio_updated' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/gpio.v:185]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_updated' (27#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/gpio.v:185]
+INFO: [Synth 8-6157] synthesizing module 'spi_apb_master_tx' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/spi.v:16]
+	Parameter CLK_DIV bound to: 4 - type: integer 
+	Parameter IDLE bound to: 1'b0 
+	Parameter TRANSFER bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spi_apb_master_tx' (28#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/spi.v:16]
+WARNING: [Synth 8-7071] port 'spi_ready' of module 'spi_apb_master_tx' is unconnected for instance 'u_spi' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:161]
+WARNING: [Synth 8-7023] instance 'u_spi' of module 'spi_apb_master_tx' has 12 connections declared, but only 11 given [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:161]
+INFO: [Synth 8-6155] done synthesizing module 'apb_soc_top' (29#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/new/top.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_apb_soc_top_0_0' (30#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_apb_soc_top_0_0/synth/RiscV_BD_apb_soc_top_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_branch_fsm_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_branch_fsm_0_0/synth/RiscV_BD_branch_fsm_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'branch_fsm' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/branch_fsm.v:1]
+	Parameter IDLE bound to: 1'b0 
+	Parameter ADD_CALC bound to: 1'b1 
+INFO: [Synth 8-226] default block is never used [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/branch_fsm.v:36]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/branch_fsm.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'branch_fsm' (31#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/branch_fsm.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_branch_fsm_0_0' (32#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_branch_fsm_0_0/synth/RiscV_BD_branch_fsm_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_combinational_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_combinational_0_0/synth/RiscV_BD_combinational_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'combinational' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/combinational.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'combinational' (33#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/combinational.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_combinational_0_0' (34#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_combinational_0_0/synth/RiscV_BD_combinational_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_concat_2to1_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_0_0/synth/RiscV_BD_concat_2to1_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'concat_2to1' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/concat_2to1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'concat_2to1' (35#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/concat_2to1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_concat_2to1_0_0' (36#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_0_0/synth/RiscV_BD_concat_2to1_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_concat_2to1_1_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_1_0/synth/RiscV_BD_concat_2to1_1_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_concat_2to1_1_0' (37#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_1_0/synth/RiscV_BD_concat_2to1_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_concat_2to1_2_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_2_0/synth/RiscV_BD_concat_2to1_2_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_concat_2to1_2_0' (38#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_2_0/synth/RiscV_BD_concat_2to1_2_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_controller_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_controller_0_0/synth/RiscV_BD_controller_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'controller' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/controller.v:34]
+	Parameter OP_RTYPE bound to: 7'b0110011 
+	Parameter OP_IALU bound to: 7'b0010011 
+	Parameter OP_LOAD bound to: 7'b0000011 
+	Parameter OP_STORE bound to: 7'b0100011 
+	Parameter OP_BRANCH bound to: 7'b1100011 
+	Parameter OP_JALR bound to: 7'b1100111 
+	Parameter OP_JAL bound to: 7'b1101111 
+	Parameter OP_LUI bound to: 7'b0110111 
+	Parameter OP_AUIPC bound to: 7'b0010111 
+	Parameter OP_SYSTEM bound to: 7'b1110011 
+	Parameter OP_CUSTOM0 bound to: 7'b0000001 
+	Parameter OP_LOAD_PERI bound to: 7'b1111111 
+	Parameter OP_STORE_PERI bound to: 7'b1111110 
+INFO: [Synth 8-226] default block is never used [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/controller.v:184]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (39#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/controller.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_controller_0_0' (40#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_controller_0_0/synth/RiscV_BD_controller_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_csr_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_csr_0_0/synth/RiscV_BD_csr_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'csr' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/min_csr.v:2]
+	Parameter CSR_MSTATUS bound to: 12'b001100000000 
+	Parameter CSR_MTVEC bound to: 12'b001100000101 
+	Parameter CSR_MEPC bound to: 12'b001101000001 
+	Parameter CSR_MCYCLE bound to: 12'b110000000000 
+	Parameter CSR_MINSTRET bound to: 12'b110000000010 
+INFO: [Synth 8-6155] done synthesizing module 'csr' (41#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/min_csr.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_csr_0_0' (42#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_csr_0_0/synth/RiscV_BD_csr_0_0.v:58]
+WARNING: [Synth 8-7071] port 'mstatus_mie' of module 'RiscV_BD_csr_0_0' is unconnected for instance 'csr_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:411]
+WARNING: [Synth 8-7023] instance 'csr_0' of module 'RiscV_BD_csr_0_0' has 13 connections declared, but only 12 given [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:411]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_csr_mux_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_csr_mux_0_0/synth/RiscV_BD_csr_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'csr_mux' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/csr_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'csr_mux' (43#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/csr_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_csr_mux_0_0' (44#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_csr_mux_0_0/synth/RiscV_BD_csr_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_data_mem_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_data_mem_0_0/synth/RiscV_BD_data_mem_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'data_mem' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/data_mem.vhd:44]
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "data_memory_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'data_mem' (45#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/data_mem.vhd:44]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_data_mem_0_0' (46#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_data_mem_0_0/synth/RiscV_BD_data_mem_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_forwarding_mux_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_forwarding_mux_0_0/synth/RiscV_BD_forwarding_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'forwarding_mux' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/forwarding_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'forwarding_mux' (47#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/forwarding_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_forwarding_mux_0_0' (48#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_forwarding_mux_0_0/synth/RiscV_BD_forwarding_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_hazard_unit_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_hazard_unit_0_0/synth/RiscV_BD_hazard_unit_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'hazard_unit' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/hazard_unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hazard_unit' (49#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/hazard_unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_hazard_unit_0_0' (50#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_hazard_unit_0_0/synth/RiscV_BD_hazard_unit_0_0.v:58]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:470]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_ila_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:84]
+INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1524]
+INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (58#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1524]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1487]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (59#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1487]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78184]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (69#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78184]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78034]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (71#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78034]
+INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78123]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (73#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78123]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (78#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
+WARNING: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:3289]
+WARNING: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:3289]
+WARNING: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:3289]
+WARNING: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:3289]
+WARNING: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:3289]
+WARNING: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_11_ila' is unconnected for instance 'inst' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:3289]
+WARNING: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_11_ila' has 1033 connections declared, but only 1027 given [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:3289]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_ila_0_0' (96#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/synth/RiscV_BD_ila_0_0.v:84]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_imm_extend_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_imm_extend_0_0/synth/RiscV_BD_imm_extend_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'imm_extend' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/imm_extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'imm_extend' (97#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/imm_extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_imm_extend_0_0' (98#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_imm_extend_0_0/synth/RiscV_BD_imm_extend_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_instr_mem_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_instr_mem_0_0/synth/RiscV_BD_instr_mem_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'instr_mem' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/instr_mem.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'instr_mem' (99#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/instr_mem.vhd:40]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_instr_mem_0_0' (100#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_instr_mem_0_0/synth/RiscV_BD_instr_mem_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_instr_retire_mux_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_instr_retire_mux_0_0/synth/RiscV_BD_instr_retire_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'instr_retire_mux' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/inst_retire_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'instr_retire_mux' (101#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/inst_retire_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_instr_retire_mux_0_0' (102#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_instr_retire_mux_0_0/synth/RiscV_BD_instr_retire_mux_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_load_extend_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_load_extend_0_0/synth/RiscV_BD_load_extend_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'load_extend' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/load_extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'load_extend' (103#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/load_extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_load_extend_0_0' (104#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_load_extend_0_0/synth/RiscV_BD_load_extend_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_mul_fsm_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_mul_fsm_0_0/synth/RiscV_BD_mul_fsm_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'mul_fsm' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/mul_fsm.v:1]
+	Parameter IDLE bound to: 2'b00 
+	Parameter mul_stage_1 bound to: 2'b01 
+	Parameter mul_stage_2 bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'mul_fsm' (105#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/codes/mul_fsm.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_mul_fsm_0_0' (106#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_mul_fsm_0_0/synth/RiscV_BD_mul_fsm_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_or_gate_1_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_or_gate_1_0/synth/RiscV_BD_or_gate_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'or_gate' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/OR_gate.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'or_gate' (107#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/OR_gate.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_or_gate_1_0' (108#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_or_gate_1_0/synth/RiscV_BD_or_gate_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_pc_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_pc_0_0/synth/RiscV_BD_pc_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'pc' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/DESIGN LAB/pc.v:21]
+INFO: [Synth 8-226] default block is never used [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/DESIGN LAB/pc.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (109#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/DESIGN LAB/pc.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_pc_0_0' (110#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_pc_0_0/synth/RiscV_BD_pc_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_register_file_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_register_file_0_0/synth/RiscV_BD_register_file_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/reg_file.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (111#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/reg_file.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_register_file_0_0' (112#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_register_file_0_0/synth/RiscV_BD_register_file_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_two_in32bitmix_0_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_0_0/synth/RiscV_BD_two_in32bitmix_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'two_in32bitmix' [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/two_in32bitmix.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'two_in32bitmix' (113#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/two_in32bitmix.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_two_in32bitmix_0_0' (114#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_0_0/synth/RiscV_BD_two_in32bitmix_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RiscV_BD_two_in32bitmix_1_0' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_1_0/synth/RiscV_BD_two_in32bitmix_1_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_two_in32bitmix_1_0' (115#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_1_0/synth/RiscV_BD_two_in32bitmix_1_0.v:58]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'register_file_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:547]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'pc_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:537]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mul_fsm_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:528]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:470]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'csr_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:411]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'branch_fsm_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:355]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'apb_soc_top_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:341]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'MA_WB_PR_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:280]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'IF_ID_PR_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:262]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ID_EX_PR_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:211]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'EX_MA_PR_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:179]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ALU_OPER_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:170]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'instr_mem_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:517]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'controller_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:387]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'hazard_unit_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:443]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Write_back_Mux_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:306]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'forwarding_mux_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:434]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'imm_extend_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:513]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'or_gate_1'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:533]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'csr_mux_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:424]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'alu_muxes_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:319]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'two_in32bitmix_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:557]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Q16_16_Mult_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:302]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'alu_fixed_point_mux_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:314]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'data_mem_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:428]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'load_extend_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:524]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'two_in32bitmix_1'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:562]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'instr_retire_mux_0'. This will prevent further optimization [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:520]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD' (116#1) [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/synth/RiscV_BD.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'RiscV_BD_wrapper' (117#1) [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:56 ; elapsed = 00:01:02 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:06 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:00 ; elapsed = 00:01:06 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.928 . Memory (MB): peak = 1921.293 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 680 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'RiscV_BD_i/ila_0/inst'
+Finished Parsing XDC File [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'RiscV_BD_i/ila_0/inst'
+Parsing XDC File [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RiscV_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/RiscV_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1921.293 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 501 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 456 instances
+  CFGLUT5 => SRLC32E: 45 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.539 . Memory (MB): peak = 1921.293 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:22 ; elapsed = 00:01:28 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:22 ; elapsed = 00:01:28 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/ila_0/inst. (constraint file  {D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.runs/synth_1/dont_touch.xdc}, line 104).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/Q16_16_Mult_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/register_file_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/csr_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/alu_fixed_point_mux_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/csr_mux_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/forwarding_mux_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/load_extend_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/Write_back_Mux_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/combinational_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/instr_retire_mux_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/concat_2to1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/concat_2to1_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/concat_2to1_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/or_gate_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/alu_muxes_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/pc_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/branch_fsm_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/mul_fsm_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/IF_ID_PR_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/MA_WB_PR_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/ALU_OPER_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/controller_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/imm_extend_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/data_mem_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/hazard_unit_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/two_in32bitmix_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/two_in32bitmix_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/ID_EX_PR_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/EX_MA_PR_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/instr_mem_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/apb_soc_top_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RiscV_BD_i/ila_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:01:29 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'apb_master'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized5'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized6'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized7'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized8'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized9'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized10'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized11'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized12'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized13'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized14'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized15'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized16'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized17'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized18'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized19'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized20'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized21'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized22'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized23'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized24'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized25'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized26'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized27'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized28'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized29'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized30'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized31'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized32'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized33'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized34'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized35'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized36'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized37'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized38'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized39'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized40'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized41'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'mul_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+                   SETUP |                              100 |                               01
+                  ACCESS |                              010 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'apb_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized5'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized6'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized7'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized8'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized9'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized10'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized11'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized12'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized13'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized14'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized15'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized16'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized17'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized18'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized19'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized20'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized21'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized22'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized23'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized24'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized25'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized26'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized27'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized28'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized29'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized30'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized31'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized32'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized33'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized34'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized35'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized36'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized37'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized38'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized39'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized40'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized41'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              RESET_ADDR |                          0000001 |                          0000001
+            REQUEST_READ |                          0000010 |                          0000010
+           WAIT_READ_ACK |                          0000100 |                          0000100
+             OUTPUT_DATA |                          0001000 |                          0001000
+                    IDLE |                          0010000 |                          0010000
+         INCREMENT_BLOCK |                          0100000 |                          0100000
+       INCREMENT_ADDRESS |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+             mul_stage_1 |                              010 |                               01
+             mul_stage_2 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'mul_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:49 ; elapsed = 00:01:56 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5587] ROM size for "inst/RegWrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "inst/ResultSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/MemWrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/Jump" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/Branch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "inst/ALUSrc" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "inst/ImmSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "excep0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/instr_retired" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/fixed_pMUX" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/mem2reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/processor_request" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/processor_wen" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst/peripheral_load" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[0].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[1].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[2].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[3].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[7].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[4].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[5].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[5].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[6].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[5].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[7].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[8].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[5].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[9].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[10].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[11].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[12].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[12].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[13].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[14].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[2].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[15].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[16].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[17].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[18].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[19].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[20].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[21].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[22].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[23].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[24].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[25].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[26].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[27].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[28].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[29].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[30].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[31].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[32].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[33].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[34].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[35].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[36].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[37].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[38].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[39].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'N_DDR_MODE.PROBE_STATUS[40].probe_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'CNT_WIDTH_STATUS[0].cnt_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'CNT_WIDTH_STATUS[1].cnt_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'CNT_WIDTH_STATUS[2].cnt_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'CNT_WIDTH_STATUS[3].cnt_width_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'reg_2/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'reg_4/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'reg_5/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'reg_86/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'reg_88c/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' into 'N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v:47]
+INFO: [Synth 8-4471] merging register 'u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_hcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[9:0]' into 'u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_lcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[9:0]' [d:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/ipshared/1b7e/hdl/ltlib_v1_0_vl_rfs.v:711]
+WARNING: [Synth 8-7129] Port rst_reg_i in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[12] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[11] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[10] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[9] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[8] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[7] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[6] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[5] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[4] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[3] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[2] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[1] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[0] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[15] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[14] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[13] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[12] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[11] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[10] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[9] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[8] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[7] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[6] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[5] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[4] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[3] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[2] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[1] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[0] in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_dwe_i in module xsdbs_v1_0_2_reg__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[15] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[14] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[13] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[12] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[11] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[10] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[9] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[8] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[7] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[6] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[5] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[4] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[3] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[2] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[1] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[0] in module xsdbs_v1_0_2_reg__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[15] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[14] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[13] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[12] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[11] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[10] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[9] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[8] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[7] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[6] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[5] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[4] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[3] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[2] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[1] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[0] in module xsdbs_v1_0_2_reg__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[15] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[14] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[13] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[12] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[11] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[10] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[9] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[8] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[7] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[6] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[5] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[4] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[3] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[2] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[1] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[0] in module xsdbs_v1_0_2_reg__parameterized113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[15] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[14] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[13] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[12] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[11] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[10] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[9] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[8] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[7] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[6] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[5] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[4] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[3] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[2] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[1] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[0] in module xsdbs_v1_0_2_reg__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[15] in module xsdbs_v1_0_2_reg__parameterized109 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[14] in module xsdbs_v1_0_2_reg__parameterized109 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[13] in module xsdbs_v1_0_2_reg__parameterized109 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[12] in module xsdbs_v1_0_2_reg__parameterized109 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din_i[11] in module xsdbs_v1_0_2_reg__parameterized109 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (apb_soc_top_0/\inst/u_spi/shift_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1008] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1008] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1009] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1009] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1010] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1010] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1011] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1011] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1012] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1012] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1013] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1013] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1014] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1014] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1015] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1015] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1016] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1016] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1017] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1017] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1018] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1018] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1019] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1019] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1020] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1020] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1021] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1021] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1022] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1022] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/\u_trig/shift_cap_strg_qual_reg )
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[0]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[10]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\slaveRegDo_ff7_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_88f/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_892/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_887/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[40].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[39].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[38].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[37].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[36].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[35].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[34].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[33].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[31].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[30].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[29].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[28].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[27].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[26].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[25].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[24].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[23].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[22].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[21].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[20].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[19].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[18].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[17].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[16].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[15].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[14].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[5].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[3].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[7].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[2].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[32].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[13].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[11].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[12].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[10].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[9].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[8].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[6].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[4].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_14/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_13/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_12/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_11/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_10/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_f/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_d/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_c/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_b/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_a/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_3/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_1/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_0/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[1]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\slaveRegDo_ff7_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_88f/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_892/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\reg_887/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[40].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[39].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ila_0/inst/ila_core_inst/u_ila_regs/\N_DDR_MODE_MU1.MU_STATUS[38].mu_tpid_reg/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[2]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[3]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[4]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[5]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[6]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[7]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[9]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[11]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[11]' (FDRE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[12]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[13]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[15]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[14]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_ff8_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[0]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[13]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[1]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[2]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[3]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[16]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[4]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[17]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[5]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[18]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[6]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[19]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[7]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[20]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[8]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[21]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[9]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[22]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[10]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[23]'
+INFO: [Synth 8-3886] merging instance 'IF_ID_PR_0/inst/csr_add_D_reg[11]' (FDCE) to 'IF_ID_PR_0/inst/Imm_D_reg[24]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[32]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[32]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[33]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[33]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[34]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[34]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[35]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[35]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[36]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[36]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[37]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[37]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[38]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[38]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[39]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[39]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[40]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[40]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[16]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[16]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[17]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[17]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[18]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[18]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[19]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[19]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[20]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[20]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[21]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[21]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[22]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[22]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[23]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[23]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[24]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[24]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[25]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[26]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[25]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[26]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[26]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[27]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[26]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[27]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[27]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[28]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[27]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[28]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[28]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[29]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[28]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[29]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[29]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[29]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[30]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[30]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[0]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[0]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[1]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[1]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[2]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[2]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[3]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[3]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[4]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[4]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[5]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[5]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[6]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[6]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[7]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[8]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[7]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[9]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[9]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[10]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[11]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[10]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[11]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[11]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[12]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[13]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[12]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[13]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[14]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[13]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[14]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg1_reg[15]'
+INFO: [Synth 8-3886] merging instance 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[14]' (FDSE) to 'ila_0/inst/ila_core_inst/u_ila_regs/shift_reg0_reg[15]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:16 ; elapsed = 00:03:57 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:26 ; elapsed = 00:04:08 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:34 ; elapsed = 00:04:16 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:51 ; elapsed = 00:04:46 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin dummy_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:04:03 ; elapsed = 00:04:58 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:03 ; elapsed = 00:04:58 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:07 ; elapsed = 00:05:03 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:08 ; elapsed = 00:05:03 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:11 ; elapsed = 00:05:06 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:11 ; elapsed = 00:05:06 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |   261|
+|3     |CFGLUT5  |   501|
+|4     |LUT1     |   219|
+|5     |LUT2     |   911|
+|6     |LUT3     |  7467|
+|7     |LUT4     |   989|
+|8     |LUT5     | 10721|
+|9     |LUT6     | 19103|
+|10    |MUXF7    |  4876|
+|11    |MUXF8    |  2263|
+|12    |RAMB18E1 |     1|
+|13    |RAMB36E1 |    19|
+|14    |SRL16E   |   695|
+|15    |SRLC16E  |     2|
+|16    |SRLC32E  |    17|
+|17    |FDCE     |   693|
+|18    |FDPE     |     2|
+|19    |FDRE     | 15592|
+|20    |FDSE     |    11|
+|21    |IBUF     |     2|
+|22    |IOBUF    |    16|
+|23    |OBUF     |     3|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:11 ; elapsed = 00:05:07 . Memory (MB): peak = 1921.293 ; gain = 777.801
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 140 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:55 ; elapsed = 00:04:51 . Memory (MB): peak = 1921.293 ; gain = 777.801
+Synthesis Optimization Complete : Time (s): cpu = 00:04:11 ; elapsed = 00:05:08 . Memory (MB): peak = 1921.293 ; gain = 777.801
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.882 . Memory (MB): peak = 1921.293 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7937 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: RiscV_BD_i/ila_0 UUID: 86d1e25b-eb47-5eb6-8b07-03b5d5fa8901 
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1921.293 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 517 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 456 instances
+  CFGLUT5 => SRLC32E: 45 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+673 Infos, 181 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:04:33 ; elapsed = 00:05:32 . Memory (MB): peak = 1921.293 ; gain = 777.801
+INFO: [Common 17-1381] The checkpoint 'D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.runs/synth_1/RiscV_BD_wrapper.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1921.293 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file RiscV_BD_wrapper_utilization_synth.rpt -pb RiscV_BD_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 17 05:54:40 2026...

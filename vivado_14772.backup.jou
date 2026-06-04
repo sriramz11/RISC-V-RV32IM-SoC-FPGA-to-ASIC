@@ -1,0 +1,141 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr  1 23:09:29 2026
+# Process ID: 14772
+# Current directory: C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17688 C:\IIT_Bombay_Academics\Semester_2\EE705_VLSI_Design_Lab\Course_Project\FINAL_TEST2\FINAL_TEST2\FINAL_TEST2.xpr
+# Log file: C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/vivado.log
+# Journal file: C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}
+startgroup
+set_property -dict [list CONFIG.Coe_File {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/instruction_memory.coe}] [get_bd_cells blk_mem_gen_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.Coe_File {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/data_memory.coe}] [get_bd_cells blk_mem_gen_1]
+endgroup
+delete_bd_objs [get_bd_nets inv_0_y] [get_bd_nets pc_0_pc_mem] [get_bd_nets blk_mem_gen_0_douta] [get_bd_cells blk_mem_gen_0]
+delete_bd_objs [get_bd_nets blk_mem_gen_1_douta] [get_bd_cells blk_mem_gen_1]
+undo
+undo
+delete_bd_objs [get_bd_nets blk_mem_gen_1_douta] [get_bd_cells blk_mem_gen_1]
+delete_bd_objs [get_bd_nets inv_0_y] [get_bd_nets pc_0_pc_mem] [get_bd_nets blk_mem_gen_0_douta] [get_bd_cells blk_mem_gen_0]
+update_module_reference RiscV_BD_pc_0_0
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_0
+endgroup
+set_property -dict [list CONFIG.Enable_32bit_Address {true} CONFIG.Use_Byte_Write_Enable {true} CONFIG.Byte_Size {8} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/instruction_memory.coe} CONFIG.Fill_Remaining_Memory_Locations {true} CONFIG.Use_RSTA_Pin {false} CONFIG.use_bram_block {Stand_Alone} CONFIG.EN_SAFETY_CKT {false}] [get_bd_cells blk_mem_gen_0]
+connect_bd_net [get_bd_pins blk_mem_gen_0/addra] [get_bd_pins pc_0/pc_mem]
+connect_bd_net [get_bd_ports clk_0] [get_bd_pins blk_mem_gen_0/clka]
+connect_bd_net [get_bd_pins blk_mem_gen_0/douta] [get_bd_pins IF_ID_PR_0/Inst_F]
+connect_bd_net [get_bd_pins inv_0/y] [get_bd_pins blk_mem_gen_0/ena]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_1
+endgroup
+set_property location {12 2975 -768} [get_bd_cells blk_mem_gen_1]
+set_property -dict [list CONFIG.Enable_32bit_Address {true} CONFIG.Use_Byte_Write_Enable {true} CONFIG.Byte_Size {8} CONFIG.Enable_A {Always_Enabled} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/data_memory.coe} CONFIG.Fill_Remaining_Memory_Locations {true} CONFIG.Use_RSTA_Pin {false} CONFIG.use_bram_block {Stand_Alone} CONFIG.EN_SAFETY_CKT {false}] [get_bd_cells blk_mem_gen_1]
+connect_bd_net [get_bd_pins blk_mem_gen_1/douta] [get_bd_pins blk_mem_gen_1/wea]
+delete_bd_objs [get_bd_nets blk_mem_gen_1_douta]
+connect_bd_net [get_bd_pins blk_mem_gen_1/wea] [get_bd_pins ID_EX_PR_0/mem_write_E]
+connect_bd_net [get_bd_ports clk_0] [get_bd_pins blk_mem_gen_1/clka]
+connect_bd_net [get_bd_pins blk_mem_gen_1/addra] [get_bd_pins alu_fixed_point_mux_0/final_output]
+connect_bd_net [get_bd_pins blk_mem_gen_1/dina] [get_bd_pins forwarding_mux_0/rs2]
+connect_bd_net [get_bd_pins blk_mem_gen_1/douta] [get_bd_pins load_extend_0/mem_data]
+startgroup
+endgroup
+save_bd_design
+export_ip_user_files -of_objects  [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd] -top
+add_files -norecurse c:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RiscV_BD_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd]
+export_ip_user_files -of_objects [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd] -directory C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files/sim_scripts -ip_user_files_dir C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files -ipstatic_source_dir C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/modelsim} {questa=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/questa} {riviera=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/riviera} {activehdl=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+open_wave_config C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg
+source RiscV_BD_wrapper_tb.tcl
+open_bd_design {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}
+delete_bd_objs [get_bd_nets blk_mem_gen_0_douta] [get_bd_nets inv_0_y] [get_bd_nets pc_0_pc_mem] [get_bd_cells blk_mem_gen_0]
+delete_bd_objs [get_bd_nets blk_mem_gen_1_douta] [get_bd_cells blk_mem_gen_1]
+close [ open C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/data_mem.vhd w ]
+add_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/data_mem.vhd
+update_compile_order -fileset sources_1
+close [ open C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/instr_mem.vhd w ]
+add_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/new/instr_mem.vhd
+update_compile_order -fileset sources_1
+open_bd_design {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}
+update_module_reference RiscV_BD_pc_0_0
+delete_bd_objs [get_bd_cells inv_0]
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference instr_mem instr_mem_0
+connect_bd_net [get_bd_pins pc_0/pc_f] [get_bd_pins instr_mem_0/addr]
+connect_bd_net [get_bd_pins instr_mem_0/instr] [get_bd_pins IF_ID_PR_0/Inst_F]
+create_bd_cell -type module -reference data_mem data_mem_0
+connect_bd_net [get_bd_ports clk_0] [get_bd_pins data_mem_0/clk]
+connect_bd_net [get_bd_pins EX_MA_PR_0/mem_write_M] [get_bd_pins data_mem_0/memWrite_en]
+connect_bd_net [get_bd_pins EX_MA_PR_0/write_data_E] [get_bd_pins forwarding_mux_0/rs2]
+connect_bd_net [get_bd_pins EX_MA_PR_0/write_data_M] [get_bd_pins data_mem_0/write_data]
+connect_bd_net [get_bd_pins data_mem_0/dmem_addr] [get_bd_pins EX_MA_PR_0/ALU_result_M]
+connect_bd_net [get_bd_pins data_mem_0/data_out] [get_bd_pins load_extend_0/mem_data]
+save_bd_design
+update_compile_order -fileset sources_1
+update_module_reference RiscV_BD_alu_muxes_0_2
+close_sim
+generate_target Simulation [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd]
+export_ip_user_files -of_objects [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd] -directory C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files/sim_scripts -ip_user_files_dir C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files -ipstatic_source_dir C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/modelsim} {questa=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/questa} {riviera=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/riviera} {activehdl=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+open_wave_config C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg
+source RiscV_BD_wrapper_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+open_bd_design {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}
+update_module_reference RiscV_BD_instr_mem_0_0
+update_module_reference RiscV_BD_data_mem_0_0
+disconnect_bd_net /controller_0_Branch [get_bd_pins ID_EX_PR_0/alu_op_ctrl_D]
+set_property location {5 -55 -1034} [get_bd_cells controller_0]
+connect_bd_net [get_bd_pins ID_EX_PR_0/alu_op_ctrl_D] [get_bd_pins controller_0/ALUOpCtrl]
+save_bd_design
+save_wave_config {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg}
+close_sim
+generate_target Simulation [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd]
+export_ip_user_files -of_objects [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd] -directory C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files/sim_scripts -ip_user_files_dir C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files -ipstatic_source_dir C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/modelsim} {questa=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/questa} {riviera=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/riviera} {activehdl=C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+open_wave_config C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg
+source RiscV_BD_wrapper_tb.tcl
+open_bd_design {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sources_1/bd/RiscV_BD/RiscV_BD.bd}
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg
+source RiscV_BD_wrapper_tb.tcl
+save_wave_config {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg
+source RiscV_BD_wrapper_tb.tcl
+save_wave_config {C:/IIT_Bombay_Academics/Semester_2/EE705_VLSI_Design_Lab/Course_Project/FINAL_TEST2/FINAL_TEST2/FINAL_TEST2.srcs/sim_1/imports/VLSI_RISC_V_IM/RiscV_BD_wrapper_tb_behav.wcfg}
+close_sim

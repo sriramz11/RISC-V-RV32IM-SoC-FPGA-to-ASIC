@@ -1,0 +1,79 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/reg_file.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/min_csr.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/alu_fixed_point_mux.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/csr_mux.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/forwarding_mux.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/load_extend.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/Write_back_Mux.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/combinational.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/inst_retire_mux.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/concat_2to1.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/OR_gate.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/alu_muxes.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/DESIGN LAB/pc.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/branch_fsm.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/mul_fsm.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/IF_ID_PR.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/MA_WB_PR.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/codes/controller.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/COURSE PRPJECT/Decode/imm_extend.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/hazard_unit.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/two_in32bitmix.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/ID_EX_PR.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/new/EX_MA_PR.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/apb_master.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/apb_slave_decoder.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/gpio.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/spi.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/top.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Booth_PP.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/Dadda_tree.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/Q16_16.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/new/Booth_PP.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_Stage_1.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/Dadda_stage_2.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/sources_1/imports/new/mul_top.v" \
+"../../../../FINAL_TEST2.srcs/sources_1/imports/sources_1/new/ALU_OPER.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_register_file_0_0/sim/RiscV_BD_register_file_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_csr_0_0/sim/RiscV_BD_csr_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_alu_fixed_point_mux_0_0/sim/RiscV_BD_alu_fixed_point_mux_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_csr_mux_0_0/sim/RiscV_BD_csr_mux_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_forwarding_mux_0_0/sim/RiscV_BD_forwarding_mux_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_load_extend_0_0/sim/RiscV_BD_load_extend_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_Write_back_Mux_0_0/sim/RiscV_BD_Write_back_Mux_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_combinational_0_0/sim/RiscV_BD_combinational_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_instr_retire_mux_0_0/sim/RiscV_BD_instr_retire_mux_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_0_0/sim/RiscV_BD_concat_2to1_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_1_0/sim/RiscV_BD_concat_2to1_1_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_concat_2to1_2_0/sim/RiscV_BD_concat_2to1_2_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_or_gate_1_0/sim/RiscV_BD_or_gate_1_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_alu_muxes_0_2/sim/RiscV_BD_alu_muxes_0_2.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_pc_0_0/sim/RiscV_BD_pc_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_branch_fsm_0_0/sim/RiscV_BD_branch_fsm_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_mul_fsm_0_0/sim/RiscV_BD_mul_fsm_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_IF_ID_PR_0_0/sim/RiscV_BD_IF_ID_PR_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_MA_WB_PR_0_0/sim/RiscV_BD_MA_WB_PR_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_controller_0_0/sim/RiscV_BD_controller_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_imm_extend_0_0/sim/RiscV_BD_imm_extend_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_data_mem_0_0/sim/RiscV_BD_data_mem_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_hazard_unit_0_0/sim/RiscV_BD_hazard_unit_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_0_0/sim/RiscV_BD_two_in32bitmix_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_two_in32bitmix_1_0/sim/RiscV_BD_two_in32bitmix_1_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ID_EX_PR_0_0/sim/RiscV_BD_ID_EX_PR_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_EX_MA_PR_0_0/sim/RiscV_BD_EX_MA_PR_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_instr_mem_0_0/sim/RiscV_BD_instr_mem_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ila_0_0/sim/RiscV_BD_ila_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_apb_soc_top_0_0/sim/RiscV_BD_apb_soc_top_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_Q16_16_Mult_0_0/sim/RiscV_BD_Q16_16_Mult_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/ip/RiscV_BD_ALU_OPER_0_0/sim/RiscV_BD_ALU_OPER_0_0.v" \
+"../../../../FINAL_TEST2.ip_user_files/bd/RiscV_BD/sim/RiscV_BD.v" \
+"../../../../FINAL_TEST2.gen/sources_1/bd/RiscV_BD/hdl/RiscV_BD_wrapper.v" \
+"../../../../FINAL_TEST2.srcs/sim_1/new/RiscV_BD_wrapper_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

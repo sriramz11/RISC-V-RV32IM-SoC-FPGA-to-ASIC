@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 19 23:38:22 2026
+# Process ID: 21612
+# Current directory: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim/xsim.dir/RiscV_BD_wrapper_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/IIT BOMBAY/SEM 2/DESIGN LAB/COURSE PRPJECT/FINAL_TEST2/syn_ready_with_ila/FINAL_TEST2/FINAL_TEST2.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/IIT -notrace
+couldn't read file "D:/IIT": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Apr 19 23:38:22 2026...
